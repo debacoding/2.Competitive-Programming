@@ -27,6 +27,21 @@ template <> class AddElements <string>{
       return s;
     }
 };
+
+
+/* to speed up the process */
+int start_up() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    return 0;
+}
+
+int static r = start_up();
+
+#define endl '\n';
+/* end of ---> to speed up the process */
+
+
 int main () {
   int n,i;
   cin >> n;
