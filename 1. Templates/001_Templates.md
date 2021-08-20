@@ -7,7 +7,7 @@ Templates allow functions and classes to operate same operations with different 
 template <class  type> 
 return-type function-name (parameter-list)
 ```
-## Eg. 
+## Eg_1. (generic function using template)
 swap two variables of int type and two of float type
 
 ```cpp
@@ -36,4 +36,18 @@ int main( ) {
 ```
 Swapped elements values of a and b are 20 and 10 respectively.
 Swapped elements values of a and b are 20.5 and 10.5 respectively.
+```
+## Eg_2. (generic class using template) 
+
+
+```cpp
+template <class T> 
+class mypair {
+    T values [2];
+  public:
+    mypair (T first, T second)
+    {
+      values[0]=first; values[1]=second;
+    }
+};
 ```
