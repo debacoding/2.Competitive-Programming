@@ -50,3 +50,72 @@ void function_name(vector<datatype>& v){
 ....
 }
 ```
+
+## Implementation
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    // vector declaration
+    vector<int> v; // v.size() == 0
+    
+    // entering elements
+    v.push_back(1); 
+    v.push_back(2);
+    v.push_back(3);
+    v.push_back(4);
+    
+    // traverse vectors using for loop
+    for(int i = 0; i < v.size(); i ++){
+        cout << v[i] << " ";
+    }
+    cout << endl;
+    
+    cout << v.at(2) << endl; // cout << v[2];
+    
+    // traverse vectors without modifying elements
+    for(int x:v){
+        cout << x << " ";
+    }
+    cout << endl;
+    
+    // declaraing iterator
+    vector<int> :: iterator it1;
+    
+    // traverse vectors using iterators
+    for(it1 = v.begin(); it1 != v.end(); it1++){
+        cout << *it1 << " ";
+    }
+    cout << endl;
+    
+    // traverse using iterator with "auto" keyword
+    for(auto it2 = v.begin(); it2 != v.end(); it2++){
+        cout << *it2 << " ";
+    }
+    cout << endl;
+    
+    // vector initialization using array
+    int arr[] = {10,5,20};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    vector<int> vec(arr,arr + n);
+    
+    for(auto itr = vec.begin(); itr != vec.end(); itr++){
+        cout << *itr << " ";
+    }
+    cout << endl;
+    
+    // checking vector capacity
+    cout << vec.capacity() << endl;
+    
+    vec.swap(v);
+    
+    vec.clear();
+    
+    if(vec.empty()){
+        cout << "empty\n";
+    }
+    
+	return 0;
+}
+```
