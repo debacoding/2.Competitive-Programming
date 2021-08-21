@@ -175,7 +175,7 @@ int main(){
 return 0;
 }
 ```
-** Output : **
+**Output** : 
 ```
 The vector is empty 
 Size of the vector is 10
