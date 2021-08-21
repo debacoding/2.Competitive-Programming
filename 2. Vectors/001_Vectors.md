@@ -21,6 +21,8 @@ vector<datatype> v[10]; // following declaration isn't a vector with 10 elements
 | <a> push_back() </a> | Inserts a new element at the end of the vector | O(1) |
 | <a> pop_back() </a> | Removes the last element from the vector | O(1) |
 | <a> resize() </a> | Resizes the vector to the new length which can be less than or greater than the current length | O(n) |
+| <a> size() </a> | | |
+
 
 ## Passing vactor as argument to a function
 ```cpp
