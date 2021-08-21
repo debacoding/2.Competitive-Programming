@@ -191,11 +191,8 @@ The vector is now empty again
 using namespace std;
 
 int main(){
-std::vector<int> v;
+vector<int> v;
 
-//---------------------------------
-// General Operations
-//---------------------------------
 
 // Size
 unsigned int size = v.size();
@@ -216,8 +213,9 @@ int tail = v.back();        // tail
 tail = v[v.size() - 1];     // or using array style indexing
 
 // Iterate
-for(std::vector<int>::iterator it = v.begin(); it != v.end(); it++) {
-    std::cout << *it << std::endl;
+for(vector<int>::iterator it = v.begin(); it != v.end(); it++) 
+{
+    cout << *it << std::endl;
 }
 
 // Remove head, index, tail
