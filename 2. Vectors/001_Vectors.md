@@ -16,4 +16,8 @@ vector<datatype> v[10]; // following declaration isn't a vector with 10 elements
 ## Functions
 | <center> Function </center>  | <center> Purpose </center>  | <center> Complexity </center>  |
 | :--------------------------- | :-------------------------- | :----------------------------- |
-| <a> at() </a>                | Returns the reference to the element at a particular position (can also be done using ‘[ ]’ operator) | O(1)|
+| <a> at() </a> | Returns the reference to the element at a particular position (can also be done using ‘[ ]’ operator) | O(1)|
+| <a> clear() </a> | Deletes all the elements from the vector and assign an empty vector | O(n) |
+| <a> push_back() </a> | Inserts a new element at the end of the vector | O(1) |
+| <a> pop_back() </a> | Removes the last element from the vector | O(1) |
+| <a> resize() </a> | Resizes the vector to the new length which can be less than or greater than the current length | O(n) |
