@@ -13,6 +13,14 @@ vector<vector<datatype>> matrix(no. of rows, vector<datatype>(no. of cols, defau
 
 vector<datatype> v[10]; // following declaration isn't a vector with 10 elements but an array of size ten having vector elements
 ```
+## User inputs in a vector
+```cpp
+    int x;
+    for(int i = 0; i < n; i++){
+        cin >> x;
+        v.push_back(x);
+    }   
+```
 ## Functions
 | <center> Function </center>  | <center> Purpose </center>  | <center> Complexity </center>  |
 | :--------------------------- | :-------------------------- | :----------------------------- |
