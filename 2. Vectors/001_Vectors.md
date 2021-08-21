@@ -72,7 +72,7 @@ int main() {
     }
     cout << endl;
     
-    cout << v.at(2) << endl; // cout << v[2];
+    
     
     // traverse vectors without modifying elements
     for(int x:v){
@@ -80,20 +80,28 @@ int main() {
     }
     cout << endl;
     
+    
+    
+    
     // declaraing iterator
     vector<int> :: iterator it1;
-    
     // traverse vectors using iterators
     for(it1 = v.begin(); it1 != v.end(); it1++){
         cout << *it1 << " ";
     }
     cout << endl;
     
+    
+    
+    
     // traverse using iterator with "auto" keyword
     for(auto it2 = v.begin(); it2 != v.end(); it2++){
         cout << *it2 << " ";
     }
     cout << endl;
+    
+    
+    
     
     // vector initialization using array
     int arr[] = {10,5,20};
@@ -105,16 +113,12 @@ int main() {
     }
     cout << endl;
     
+    
+    
+    
     // checking vector capacity
     cout << vec.capacity() << endl;
     
-    vec.swap(v);
-    
-    vec.clear();
-    
-    if(vec.empty()){
-        cout << "empty\n";
-    }
     
 	return 0;
 }
