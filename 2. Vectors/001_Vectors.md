@@ -51,7 +51,7 @@ void function_name(vector<datatype>& v){
 }
 ```
 
-## Implementation
+## Implementation 1
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -118,4 +118,66 @@ int main() {
     
 	return 0;
 }
+```
+## Implementation 2
+```cpp
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    vector <int> numbers;
+
+	if (numbers.empty()){ //check if the vector is empty?
+		cout << "The vector is empty " << endl;
+	}
+
+	for(int i=0; i<100; i+=10){ //Add some values to the vector
+		numbers.push_back(i);
+	}
+
+	cout << "Size of the vector is " << numbers.size() << endl;
+
+	// iterating over the vector, declaring the iterator
+	vector <int>::iterator it;
+
+	cout << "The vector contains: ";
+	for (it=numbers.begin(); it!=numbers.end(); it++) {
+		cout << "  " << *it;
+	}
+
+	// getting value at particular position
+	int position = 5;
+	cout<<"\nVector at position "<<position<<" contains "<<numbers.at(position)<<endl;
+
+	// deleting an element at position
+	numbers.erase(numbers.begin() + position);
+	cout<<"Vector at position "<<position<<" contains "<<numbers.at(position)<<endl;
+
+	// deleting a range of elements, first two elements
+	// NOTE: You may expect elements at 0, 1 and 2 to be deleted
+	// but index 2 is not inclusive.
+	numbers.erase(numbers.begin(), numbers.begin()+2);
+	cout << "The vector contains: ";
+	for (it=numbers.begin(); it!=numbers.end(); it++) {
+		cout << "  " << *it;
+	}
+
+	// Clearing the vector
+	numbers.clear();
+	if (numbers.empty()){
+		cout << "\nThe vector is now empty again ";
+	}
+
+return 0;
+}
+```
+** Output : **
+```
+The vector is empty 
+Size of the vector is 10
+The vector contains:   0  10  20  30  40  50  60  70  80  90
+Vector at position 5 contains 50
+Vector at position 5 contains 60
+The vector contains:   20  30  40  60  70  80  90
+The vector is now empty again 
 ```
