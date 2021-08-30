@@ -1,5 +1,53 @@
-# C++ Basics:
+# Table of contents:
+1. Array
+2. Linked List
+3. Stack
+4. Queue
+5. Binary Tree (BT)
+6. Binary Search Tree (BST)
+7. Hashing 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Topics to be covered:
+## C++ Basics:
 1. Introduction and Basic I/O
 2. Time complexity
 3. Variables and data types
@@ -11,7 +59,7 @@
 9. Pointers and Dynamic memory allocation
 10. Classes and objects
  
-# STL using C++:
+## STL using C++:
 1. Templates
 2. Containers
    1. Vectors - sequence container
@@ -54,3 +102,4 @@
    22. max()
    23. min()
    24. is_sorted()  
+   
