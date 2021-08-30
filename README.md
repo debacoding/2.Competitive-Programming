@@ -7,7 +7,19 @@
 4. Queue
 5. Binary Tree (BT)
 6. Binary Search Tree (BST)
-7. Hashing 
+7. Binary Heap
+8. Hashing 
+9. Graph
+10. Trie
+11. Segment Tree
+12. Suffix Tree
+
+### Algorithms
+
+
+## CPP STL
+
+1. Vector
 
 
 
