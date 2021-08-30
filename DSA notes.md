@@ -141,7 +141,8 @@ array.data();
 ```
                      
 
-# Linked List
+<h1 align="center"><a href="#"> Linked List </a></h1>
+
 * A linked list is a linear data structure (like arrays) where each element is a separate object. 
 * *Singly Linked List* : In this type of linked list, every node stores address or reference of next node in list and the last node has next address or reference as NULL.
 * *Doubly Linked List* : In this type of Linked list, there are two references associated with each node, One of the reference points to the next node and one to the previous node. 
@@ -155,19 +156,22 @@ array.data();
                                previous the node to be 
                                deleted}   
 
-# Stack
+<h1 align="center"><a href="#"> Stack </a></h1>
+
 * A stack or LIFO (last in, first out) is an abstract data type that serves as a collection of elements, with two principal operations: push, which adds an element to the collection, and pop, which removes the last element that was added. 
 * Insertion : O(1)
 * Deletion :  O(1)
 * Access Time : O(n) {Worse case}
 
-# Queue
+<h1 align="center"><a href="#"> Queue </a></h1>
+
 * A queue or FIFO (first in, first out) is an abstract data type that serves as a collection of elements, with two principal operations: enqueue, the process of adding an element to the collection.(The element is added from the rear side) and dequeue, the process of removing the first element that was added. (The element is removed from the front side).
 * Insertion : O(1)
 * Deletion  : O(1)
 * Access Time : O(n) {Worst case}
 
-# Binary Tree (BT)
+<h1 align="center"><a href="#"> Binart Tree (BT) </a></h1>
+
 * A binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child.
 * A Binary Tree node contains following parts. 
 1. Data 
@@ -183,7 +187,8 @@ array.data();
 more than nodes with two children.
 * Time Complexity of Tree Traversal: O(n)
 
-# Binary Search Tree (BST)
+<h1 align="center"><a href="#"> Binary Search Tree (BST) </a></h1>
+
 * Binary Search Tree is a Binary Tree with following additional properties: 
 1. The left subtree of a node contains only nodes with keys less than the node’s key. 
 2. The right subtree of a node contains only nodes with keys greater than the node’s key. 
@@ -195,7 +200,8 @@ more than nodes with two children.
 * If Binary Search Tree is Height Balanced, then h = O(Log n) 
 * Self-Balancing BSTs such as AVL Tree, Red-Black Tree and Splay Tree make sure that height of BST remains O(Log n)
 
-# Binary Heap 
+<h1 align="center"><a href="#"> Binary Heap </a></h1>
+ 
 * A Binary Heap is a Binary Tree with following properties. 
 1) It’s a complete tree (All levels are completely filled except possibly the last level and the last level has all keys as left as possible). This property of Binary Heap makes them suitable to be stored in an array. 
 2) A Binary Heap is either Min Heap or Max Heap. In a Min Binary Heap, the key at root must be minimum among all keys present in Binary Heap. The same property must be recursively true for all nodes in Binary Tree. Max Binary Heap is similar to Min Heap. It is mainly implemented using array. 
@@ -205,13 +211,15 @@ more than nodes with two children.
 * Insert: O(Log n) 
 * Delete: O(Log n)
 
-# Hashing
+<h1 align="center"><a href="#"> Hashing </a></h1>
+
 * Space : O(n)
 * Search    : O(1) {Average} O(n) {Worst case}
 * Insertion : O(1) {Average} O(n) {Worst case}
 * Deletion  : O(1) {Average} O(n) {Worst case}
 
-# Graph
+<h1 align="center"><a href="#"> Graph </a></h1>
+
 * Graph is a data structure that consists of following two components:
 1. A finite set of vertices also called as nodes.
 2. A finite set of ordered pair of the form (u, v) called as edge.
@@ -226,7 +234,8 @@ Space : O(V^2)
 Traversal :(By BFS or DFS) O(V + E)
 Space : O(V+E)
 
-# Trie
+<h1 align="center"><a href="#"> Trie </a></h1>
+
 * Tries are also known as radix tree or prefix tree.
 * Trie is an efficient data structure for searching words in dictionaries, search complexity with Trie is linear in terms of word (or key) length to be searched.
 * Using trie, we can search the key in O(M) time where M is maximum string length.
@@ -245,14 +254,16 @@ struct trie_node
         only considering upper case Latin characters.
 * Deletion time : O(M)
 
-# Segment Tree
+<h1 align="center"><a href="#"> Segment Tree </a></h1>
+
 * This data structure is usually implemented when there are a lot of queries on a set of values. These queries involve minimum, maximum, sum, .. etc on a input range of given set. Queries also involve updation of values in given set. Segment Trees are implemented using array.
 * Construction of segment tree : O(N)
 * Query : O(log N)
 * Update : O(log N)
 * Space : O(N) {Exact space = 2 * N - 1}
 
-# Suffix Tree
+<h1 align="center"><a href="#"> Suffix Tree </a></h1>
+
 * Suffix Tree is mainly used to search a pattern in a text.
 * Suffix Tree is compressed trie of all suffixes, so following are very abstract steps to build a suffix tree from given text.
 1) Generate all suffixes of given text.
