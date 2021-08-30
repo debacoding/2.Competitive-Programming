@@ -25,3 +25,43 @@ vector<datatype> v[10]; // following declaration isn't a vector with 10 elements
 7. crbegin() – Returns a constant reverse iterator pointing to the last element in the vector (reverse beginning). It moves from last to first element
 8. crend() – Returns a constant reverse iterator pointing to the theoretical element preceding the first element in the vector (considered as reverse end)
 
+```cpp
+// C++ program to illustrate the iterators in vector
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	vector<int> v;
+
+	for (int i = 1; i <= 5; i++)
+		v.push_back(i);
+
+	cout << "Output of begin and end: ";
+	for (auto i = v.begin(); i != v.end(); ++i)
+		cout << *i << " ";
+
+	cout << "\nOutput of cbegin and cend: ";
+	for (auto i = v.cbegin(); i != v.cend(); ++i)
+		cout << *i << " ";
+
+	cout << "\nOutput of rbegin and rend: ";
+	for (auto ir = v.rbegin(); ir != v.rend(); ++ir)
+		cout << *ir << " ";
+
+	cout << "\nOutput of crbegin and crend : ";
+	for (auto ir = v.crbegin(); ir != v.crend(); ++ir)
+		cout << *ir << " ";
+
+	return 0;
+}
+
+```
+
+*Output* :
+```
+Output of begin and end: 1 2 3 4 5 
+Output of cbegin and cend: 1 2 3 4 5 
+Output of rbegin and rend: 5 4 3 2 1 
+Output of crbegin and crend : 5 4 3 2 1
+```
