@@ -14,7 +14,7 @@ vector<vector<datatype>> matrix(no. of rows, vector<datatype>(no. of cols, defau
 vector<datatype> v[10]; // following declaration isn't a vector with 10 elements but an array of size ten having vector elements
 ```
 
-# Iterators
+# Iterators used with Vectors
 
 1. begin() – Returns an iterator pointing to the first element in the vector
 2. end() – Returns an iterator pointing to the theoretical element that follows the last element in the vector
