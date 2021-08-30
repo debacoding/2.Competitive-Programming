@@ -180,3 +180,34 @@ Space : O(V^2)
 Traversal :(By BFS or DFS) O(V + E)
 Space : O(V+E)
 
+# Trie
+* Tries are also known as radix tree or prefix tree.
+* Trie is an efficient data structure for searching words in dictionaries, search complexity with Trie is linear in terms of word (or key) length to be searched.
+* Using trie, we can search the key in O(M) time where M is maximum string length.
+* Syntax:
+```cpp
+struct trie_node
+{
+    int value; /* Used to mark leaf nodes */
+    trie_node_t *children[ALPHABET_SIZE];
+};
+```
+* Insert time : O(M) where M is the length of the string.
+* Search time : O(M) where M is the length of the string.
+* Space : O(ALPHABET_SIZE * M * N) where N is number of 
+        keys in trie, ALPHABET_SIZE is 26 if we are 
+        only considering upper case Latin characters.
+* Deletion time : O(M)
+
+# Segment Tree
+* This data structure is usually implemented when there are a lot of queries on a set of values. These queries involve minimum, maximum, sum, .. etc on a input range of given set. Queries also involve updation of values in given set. Segment Trees are implemented using array.
+* Construction of segment tree : O(N)
+* Query : O(log N)
+* Update : O(log N)
+* Space : O(N) {Exact space = 2 * N - 1}
+
+# Suffix Tree
+* Suffix Tree is mainly used to search a pattern in a text.
+* Suffix Tree is compressed trie of all suffixes, so following are very abstract steps to build a suffix tree from given text.
+1) Generate all suffixes of given text.
+2) Consider all suffixes as individual words and build a compressed trie. 
