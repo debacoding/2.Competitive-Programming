@@ -1,6 +1,4 @@
-# Competitive-Programming
-
-## Basics:
+# C++ Basics:
 
 1. Introduction and Basic I/O
 2. Time complexity
@@ -13,19 +11,7 @@
 9. Pointers and Dynamic memory allocation
 10. Classes and objects
  
-## STL using C++:
-
-* [STL notes](https://github.com/nurdtechie98/Cpp-STL-Notes)
-* [Containers and Iterators](https://github.com/methylDragon/coding-notes/blob/master/C%2B%2B/05%20C%2B%2B%20-%20Data%20Structures%20(Containers).md#3.5)
-* [GFG](https://github.com/mansikagrawal/STL-NOTES#introduction-to-stl)
-* [STL notes on Bo's videos](https://gist.github.com/spraza/a07659f3ab5aef9329b6da0d1400e131)
-* [Notes on C++ STL](https://github.com/gobbledygook88/Notes-On/blob/master/C%2B%2B-STL.md)
-* [STL cheatsheet](https://gist.github.com/satwikkansal/c959e89161cc60db16b412233177feab)
-* [STL with DSA](https://github.com/gibsjose/cpp-cheat-sheet/blob/master/Data%20Structures%20and%20Algorithms.md#c-data-structures-and-algorithms-cheat-sheet)
-* [STL with Time Complexity](https://github.com/vasanthgk02/CPP-STL-Notes/blob/main/CPP%20STL%20WITH%20TIME%20COMPLEXITY.txt)
-* 
-
-
+# STL using C++:
 1. Templates
 2. Containers
    1. Vectors - sequence container
