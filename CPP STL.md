@@ -78,7 +78,7 @@ Output of crbegin and crend : 5 4 3 2 1
 ```cpp
 // C++ program to illustrate the
 // capacity function in vector
-#include <bits/stdc++.h
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
