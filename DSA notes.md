@@ -29,9 +29,17 @@
 # Time and Space complexity
 | Sorting algorithm | Time Complexity | | | Space Complexity|
 |-------------------|:---------------:|:---:|:---:|:------------:|
-|  | Best case | Average case | Worst case | Worst case |
-|-------------------|:---------------:|:---:|:---:|:------------:|
+|  | *Best case* | *Average case* | *Worst case* | *Worst case* |
 | Bubble sort | Omega(N) | Theta(N^2) | O(N^2) | O(1) |
+| Insertion sort | Omega(N) | Theta(N^2) | O(N^2) | O(1) |
+| Selection sort | Omega(N^2) | Theta(N^2) | O(N^2) | O(1) |
+| Merge sort | Omega(N log N) | Theta(N log N) | O(N log N) | O(N) |
+| Heap sort | Omega(N log N) | Theta(N log N) | O(N log N) | O(1) |
+| Merge sort | Omega(N log N) | Theta(N log N) | O(N^2) | O(log N) |
+| Radix sort | Omega(N k) | Theta(N k) | O(N k) | O(N + k) |
+| Count sort | Omega(N + k) | Theta(N + k) | O(N + k) | O(k) |
+| Bucket sort | Omega(N + k) | Theta(N + k) | O(N^2) | O(N) |
+
 
 # Templates
 
