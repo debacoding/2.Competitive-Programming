@@ -65,7 +65,7 @@ Output of cbegin and cend: 1 2 3 4 5
 Output of rbegin and rend: 5 4 3 2 1 
 Output of crbegin and crend : 5 4 3 2 1
 ```
-# Functions used to indiciate Capacity of Vector
+# Functions used to indicate Capacity of Vector
 
 1. size() – Returns the number of elements in the vector.
 2. max_size() – Returns the maximum number of elements that the vector can hold.
