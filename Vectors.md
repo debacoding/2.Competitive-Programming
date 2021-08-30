@@ -13,7 +13,7 @@ vector<vector<datatype>> matrix(no. of rows, vector<datatype>(no. of cols, defau
 
 vector<datatype> v[10]; // following declaration isn't a vector with 10 elements but an array of size ten having vector elements
 ```
-## User inputs in a vector
+# User inputs in a vector
 ```cpp
     int x;
     for(int i = 0; i < n; i++){
@@ -52,7 +52,7 @@ vector<datatype> v[10]; // following declaration isn't a vector with 10 elements
   
 
 
-## Passing vactor as argument to a function
+# Passing vactor as argument to a function
 ```cpp
 void function_name(vector<datatype>& v){
 ....
