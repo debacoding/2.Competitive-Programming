@@ -164,3 +164,18 @@ more than nodes with two children.
 * Search    : O(1) {Average} O(n) {Worst case}
 * Insertion : O(1) {Average} O(n) {Worst case}
 * Deletion  : O(1) {Average} O(n) {Worst case}
+
+# Graph
+* Graph is a data structure that consists of following two components:
+1. A finite set of vertices also called as nodes.
+2. A finite set of ordered pair of the form (u, v) called as edge.
+* *Undirected Graph* : The graph in which all the edges are bidirectional.
+* *Directed Graph* : The graph in which all the edges are unidirectional.
+* *Weighted Graph* : The Graph in which weight is associated with the edges.
+* *Unweighted Graph* : The Graph in which their is no weight associated to the edges. 
+* Time Complexities in case of Adjacency Matrix :
+Traversal :(By BFS or DFS) O(V^2)
+Space : O(V^2)
+* Time Complexities in case of Adjacency List :
+Traversal :(By BFS or DFS) O(V + E)
+Space : O(V+E)
