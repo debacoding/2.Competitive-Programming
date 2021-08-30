@@ -36,3 +36,47 @@
 * Insertion : O(1)
 * Deletion  : O(1)
 * Access Time : O(n) {Worst case}
+
+# Binary Tree (BT)
+* A binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child.
+* A Binary Tree node contains following parts. 
+1. Data 
+2. Pointer to left child 
+3. Pointer to right child 
+* A Binary Tree can be traversed in two ways: 
+1. Depth First Traversal: Inorder (Left-Root-Right), Preorder (Root-Left-Right) and Postorder (Left-Right-Root) 
+2. Breadth First Traversal: Level Order Traversal 
+* The maximum number of nodes at level ‘L’ = 2^L.
+* Maximum number of nodes = (2^(h + 1)) – 1.
+* Minimum possible height =  ceil(Log base2 (n+1)) - 1.
+* In Binary tree, number of leaf nodes is always one 
+more than nodes with two children.
+* Time Complexity of Tree Traversal: O(n)
+
+# Binary Search Tree (BST)
+* Binary Search Tree is a Binary Tree with following additional properties: 
+1. The left subtree of a node contains only nodes with keys less than the node’s key. 
+2. The right subtree of a node contains only nodes with keys greater than the node’s key. 
+3. The left and right subtree each must also be a binary search tree. 
+* Search :  O(h)
+* Insertion : O(h)
+* Deletion : O(h)
+* Extra Space : O(n) for pointers
+* If Binary Search Tree is Height Balanced, then h = O(Log n) 
+* Self-Balancing BSTs such as AVL Tree, Red-Black Tree and Splay Tree make sure that height of BST remains O(Log n)
+
+# Binary Heap 
+* A Binary Heap is a Binary Tree with following properties. 
+1) It’s a complete tree (All levels are completely filled except possibly the last level and the last level has all keys as left as possible). This property of Binary Heap makes them suitable to be stored in an array. 
+2) A Binary Heap is either Min Heap or Max Heap. In a Min Binary Heap, the key at root must be minimum among all keys present in Binary Heap. The same property must be recursively true for all nodes in Binary Tree. Max Binary Heap is similar to Min Heap. It is mainly implemented using array. 
+* Get Minimum in Min Heap: O(1) {Or Get Max in Max Heap}
+* Extract Minimum Min Heap: O(Log n) {Or Extract Max in Max Heap}
+* Decrease Key in Min Heap: O(Log n) {Or Decrease Key in Max Heap}
+* Insert: O(Log n) 
+* Delete: O(Log n)
+
+# Hashing
+* Space : O(n)
+* Search    : O(1) {Average} O(n) {Worst case}
+* Insertion : O(1) {Average} O(n) {Worst case}
+* Deletion  : O(1) {Average} O(n) {Worst case}
