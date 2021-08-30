@@ -2,9 +2,6 @@
 
 ## Basics:
 
-* https://github.com/methylDragon/coding-notes
-* https://github.com/gobbledygook88/Notes-On
-
 1. Introduction and Basic I/O
 2. Time complexity
 3. Variables and data types
