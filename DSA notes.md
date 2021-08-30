@@ -41,7 +41,8 @@
 | Bucket sort | Omega(N + k) | Theta(N + k) | O(N^2) | O(N) |
 
 
-# Templates
+<h1 align="center"><a href="#"> Templates </a></h1>
+
 
 * Templates allow functions and classes to operate same operations with different data types (generuc functions).
 * Syntax:
@@ -94,7 +95,8 @@ class mypair {
 };
 ```
 
-# Array
+<h1 align="center"><a href="#"> Array </a></h1>
+
 * Array is a data structure used to store homogeneous elements at contiguous locations.
 * Array index starts with 0 and goes till size of array minus 1.
 * Accessing Time: O(1) {This is possible because elements
