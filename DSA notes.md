@@ -96,6 +96,7 @@ class mypair {
 
 # Array
 * Array is a data structure used to store homogeneous elements at contiguous locations.
+* Array index starts with 0 and goes till size of array minus 1.
 * Accessing Time: O(1) {This is possible because elements
                       are stored at contiguous locations}   
 * Search Time:   O(n) for Sequential Search
