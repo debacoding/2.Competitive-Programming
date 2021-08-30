@@ -76,8 +76,7 @@ Output of crbegin and crend : 5 4 3 2 1
 7. reserve() – Requests that the vector capacity be at least enough to contain n elements.
 
 ```cpp
-// C++ program to illustrate the
-// capacity function in vector
+// C++ program to illustrate the capacity function in vector
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -123,4 +122,51 @@ Max_Size : 4611686018427387903
 Size : 4
 Vector is not empty
 Vector elements are: 1 2 3 4
+```
+
+# Functions used to access Elements in Vector
+
+1. reference operator [g] – Returns a reference to the element at position ‘g’ in the vector
+2. at(g) – Returns a reference to the element at position ‘g’ in the vector
+3. front() – Returns a reference to the first element in the vector
+4. back() – Returns a reference to the last element in the vector
+5. data() – Returns a direct pointer to the memory array used internally by the vector to store its owned elements.
+
+```cpp
+// C++ program to illustrate the element accesser in vector
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	vector<int> v;
+
+	for (int i = 1; i <= 10; i++)
+		v.push_back(i * 10);
+
+        cout << "\nReference operator [g] : v[2] = " << v[2];
+
+	cout << "\nat : v.at(4) = " << v.at(4);
+
+	cout << "\nfront() : v.front() = " << v.front();
+
+	cout << "\nback() : v.back() = " << v.back();
+
+	// pointer to the first element
+	int* pos = v.data();
+
+	cout << "\nThe first element is " << *pos;
+	
+	return 0;
+}
+
+```
+
+*Output* :
+```
+Reference operator [g] : v[2] = 30
+at : v.at(4) = 50
+front() : v.front() = 10
+back() : v.back() = 100
+The first element is 10
 ```
