@@ -1,3 +1,38 @@
+# Average case Time Complexity
+| Data structure | Access | Search | Insertion | Deletion |
+|----------------|:------:|:------:|:---------:|:--------:|
+| Array | O(1) | O(N) | O(N) | O(N) |
+| Stack | O(N) | O(N) | O(1) | O(1) |
+| Queue | O(N) | O(N) | O(1) | O(1) |
+| Singly Linked List | O(N) | O(N) | O(1) | O(1) |
+| Doubly Linked List | O(N) | O(N) | O(1) | O(1) |
+| Hash table | O(1) | O(1) | O(1) | O(1) |
+| BST | O(log N) | O(log N) | O(log N) | O(log N) |
+| AVL Tree | O(log N) | O(log N) | O(log N) | O(log N) |
+| B Tree | O(log N) | O(log N) | O(log N) | O(log N) |
+| Red Black Tree | O(log N) | O(log N) | O(log N) | O(log N) |
+
+# Worst case Time Complexity
+| Data structure | Access | Search | Insertion | Deletion |
+|----------------|:------:|:------:|:---------:|:--------:|
+| Array | O(1) | O(N) | O(N) | O(N) |
+| Stack | O(N) | O(N) | O(1) | O(1) |
+| Queue | O(N) | O(N) | O(1) | O(1) |
+| Singly Linked List | O(N) | O(N) | O(1) | O(1) |
+| Doubly Linked List | O(N) | O(N) | O(1) | O(1) |
+| Hash table | O(N) | O(N) | O(N) | O(N) |
+| BST | O(N) | O(N) | O(N) | O(N) |
+| AVL Tree | O(log N) | O(log N) | O(log N) | O(log N) |
+| Binary Tree | O(N) | O(N) | O(N) | O(N) |
+| Red Black Tree | O(log N) | O(log N) | O(log N) | O(log N) |
+
+# Time and Space complexity
+| Sorting algorithm | Time Complexity | | | Space Complexity|
+|-------------------|:---------------:|:---:|:---:|:------------:|
+|  | Best case | Average case | Worst case | Worst case |
+|-------------------|:---------------:|:---:|:---:|:------------:|
+| Bubble sort | Omega(N) | Theta(N^2) | O(N^2) | O(1) |
+
 # Templates
 
 * Templates allow functions and classes to operate same operations with different data types (generuc functions).
