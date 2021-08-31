@@ -1,3 +1,4 @@
+O(1) < O(log n) < O(n) < O(n ^ k)
 # Table of contents: 
 ## DSA
 ### Data Structures
