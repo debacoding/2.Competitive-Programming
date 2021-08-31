@@ -268,3 +268,4 @@ struct trie_node
 * Suffix Tree is compressed trie of all suffixes, so following are very abstract steps to build a suffix tree from given text.
 1) Generate all suffixes of given text.
 2) Consider all suffixes as individual words and build a compressed trie. 
+
